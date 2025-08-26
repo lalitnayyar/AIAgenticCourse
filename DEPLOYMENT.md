@@ -25,6 +25,7 @@
    Framework preset: Create React App
    Build command: npm run build
    Build output directory: build
+   Deploy command: (leave empty - Cloudflare Pages handles deployment automatically)
    ```
 
 5. **Environment Variables** (if needed):
@@ -34,8 +35,11 @@
    - Click "Save and Deploy"
    - Cloudflare will automatically build and deploy your app
 
-### Option 2: Wrangler CLI
+### Option 2: Wrangler CLI (Alternative)
 
+**Note**: For Cloudflare Pages, use the dashboard method above. Wrangler CLI is for Workers, not Pages.
+
+If you need CLI deployment for Workers:
 1. **Install Wrangler**:
    ```bash
    npm install -g wrangler
@@ -46,13 +50,9 @@
    wrangler login
    ```
 
-3. **Build the project**:
+3. **Deploy Pages via CLI**:
    ```bash
    npm run build
-   ```
-
-4. **Deploy to Pages**:
-   ```bash
    wrangler pages deploy build --project-name=personal-ai-learning-portal
    ```
 

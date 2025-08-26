@@ -1,9 +1,5 @@
 name = "personal-ai-learning-portal"
 compatibility_date = "2023-12-01"
 
-[env.production]
-name = "personal-ai-learning-portal"
-
-[[env.production.routes]]
-pattern = "ailearningportal.pages.dev"
-custom_domain = true
+[assets]
+directory = "./build"
