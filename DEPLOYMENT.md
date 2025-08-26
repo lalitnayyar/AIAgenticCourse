@@ -21,7 +21,7 @@
    ```
    Project name: personal-ai-learning-portal
    Production branch: main
-   Root directory: learning-portal
+   Root directory: (leave empty - files are in repository root)
    Framework preset: Create React App
    Build command: npm run build
    Build output directory: build
