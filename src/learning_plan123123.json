@@ -1,0 +1,50 @@
+[
+  {
+    "day": 1,
+    "lessons": [
+      {"title": "Autonomous AI Agent Demo: Using N8n to Control Smart Home Devices", "duration": "07:15"},
+      {"title": "AI Agent Frameworks Explained: OpenAI SDK, Crew AI, LangGraph & AutoGen", "duration": "11:36"},
+      {"title": "Agent Engineering Setup: Understanding Cursor IDE, UV & API Options", "duration": "11:50"},
+      {"title": "Windows Setup for AI Development: Git, Cursor IDE & UV Package Manager", "duration": "20:54"},
+      {"title": "Setting Up Your Mac for AI Projects: GitHub, Cursor IDE & OpenAI API Key", "duration": "19:50"},
+      {"title": "Building Your First Agentic AI Workflow with OpenAI API: Step-by-Step", "duration": "17:35"},
+      {"title": "Introduction to Agentic AI: Creating Multi-Step LLM Workflows + Autonomy", "duration": "01:34"}
+    ]
+  },
+  {
+    "day": 2,
+    "lessons": [
+      {"title": "Building Effective Agents: LLM Autonomy & Tool Integration Explained", "duration": "06:13"},
+      {"title": "5 Essential LLM Workflow Design Patterns for Building Robust AI Systems", "duration": "08:32"},
+      {"title": "Understanding Agent vs Workflow Patterns in LLM Application Design", "duration": "06:39"}
+    ]
+  },
+  {
+    "day": 3,
+    "lessons": [
+      {"title": "Orchestrating Multiple LLMs: Comparing GPT-4o, Claude, Gemini & DeepSeek", "duration": "10:16"},
+      {"title": "Multi-LLM API Integration: Comparing OpenAI, Anthropic & Other Models", "duration": "09:47"},
+      {"title": "Comparing LLM APIs: Using OpenAI Client Library with Claude, Gemini & ++", "duration": "12:56"},
+      {"title": "Multi-Model Orchestration: Creating a System to Evaluate AI Responses", "duration": "10:52"},
+      {"title": "Connecting Agentic Patterns to Tool Use: Essential AI Building Blocks", "duration": "00:35"}
+    ]
+  },
+  {
+    "day": 4,
+    "lessons": [
+      {"title": "Comparing AI Agent Frameworks: Simplicity vs Power in LLM Orchestration", "duration": "06:30"},
+      {"title": "Resources vs. Tools: Two Ways to Enhance LLM Capabilities in Agentic AI", "duration": "07:45"},
+      {"title": "Build a Web Chatbot That Acts Like You Using Gradio & OpenAI", "duration": "09:48"},
+      {"title": "Using Gemini to Evaluate GPT-4 Responses: A Multi-LLM Pipeline", "duration": "13:15"},
+      {"title": "Building Agentic LLM Workflows: Resources, Tools & Structured Outputs", "duration": "01:22"}
+    ]
+  },
+  {
+    "day": 5,
+    "lessons": [
+      {"title": "Building Your Career Alter Ego: LLM Function Calling with Push Alerts", "duration": "08:20"},
+      {"title": "LLM Tool Calls Demystified: How to Process and Execute Function Requests", "duration": "05:44"},
+      {"title": "Building AI Assistants: Implementing Tools for Handling Unknown Questions"}
+    ]
+  }
+]

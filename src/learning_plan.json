@@ -1,0 +1,367 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Foundation",
+      "color": "orange",
+      "projects": [
+        "Make an Agentic Workflow",
+        "Agents and Workflow Patterns", 
+        "Orchestrating LLMs",
+        "Autonomy and Tools",
+        "Project 1: Your career agent"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "lessons": [
+            {"title": "Autonomous AI Agent Demo: Using N8n to Control Smart Home Devices", "duration": "07:15"},
+            {"title": "AI Agent Frameworks Explained: OpenAI SDK, Crew AI, LangGraph & AutoGen", "duration": "11:36"},
+            {"title": "Agent Engineering Setup: Understanding Cursor IDE, UV & API Options", "duration": "11:50"},
+            {"title": "Windows Setup for AI Development: Git, Cursor IDE & UV Package Manager", "duration": "20:54"},
+            {"title": "Setting Up Your Mac for AI Projects: GitHub, Cursor IDE & OpenAI API Key", "duration": "19:50"},
+            {"title": "Building Your First Agentic AI Workflow with OpenAI API: Step-by-Step", "duration": "17:35"},
+            {"title": "Introduction to Agentic AI: Creating Multi-Step LLM Workflows + Autonomy", "duration": "01:34"}
+          ]
+        },
+        {
+          "day": 2,
+          "lessons": [
+            {"title": "Building Effective Agents: LLM Autonomy & Tool Integration Explained", "duration": "06:13"},
+            {"title": "5 Essential LLM Workflow Design Patterns for Building Robust AI Systems", "duration": "08:32"},
+            {"title": "Understanding Agent vs Workflow Patterns in LLM Application Design", "duration": "06:39"}
+          ]
+        },
+        {
+          "day": 3,
+          "lessons": [
+            {"title": "Orchestrating Multiple LLMs: Comparing GPT-4o, Claude, Gemini & DeepSeek", "duration": "10:16"},
+            {"title": "Multi-LLM API Integration: Comparing OpenAI, Anthropic & Other Models", "duration": "09:47"},
+            {"title": "Comparing LLM APIs: Using OpenAI Client Library with Claude, Gemini & ++", "duration": "12:56"},
+            {"title": "Multi-Model Orchestration: Creating a System to Evaluate AI Responses", "duration": "10:52"},
+            {"title": "Connecting Agentic Patterns to Tool Use: Essential AI Building Blocks", "duration": "00:35"}
+          ]
+        },
+        {
+          "day": 4,
+          "lessons": [
+            {"title": "Comparing AI Agent Frameworks: Simplicity vs Power in LLM Orchestration", "duration": "06:30"},
+            {"title": "Resources vs. Tools: Two Ways to Enhance LLM Capabilities in Agentic AI", "duration": "07:45"},
+            {"title": "Build a Web Chatbot That Acts Like You Using Gradio & OpenAI", "duration": "09:48"},
+            {"title": "Using Gemini to Evaluate GPT-4 Responses: A Multi-LLM Pipeline", "duration": "13:15"},
+            {"title": "Building Agentic LLM Workflows: Resources, Tools & Structured Outputs", "duration": "01:22"}
+          ]
+        },
+        {
+          "day": 5,
+          "lessons": [
+            {"title": "Building Your Career Alter Ego: LLM Function Calling with Push Alerts", "duration": "08:20"},
+            {"title": "LLM Tool Calls Demystified: How to Process and Execute Function Requests", "duration": "05:44"},
+            {"title": "Building AI Assistants: Implementing Tools for Handling Unknown Questions", "duration": "02:44"},
+            {"title": "Creating & Deploying an AI Agent: From Chat Loop to HuggingFace Spaces", "duration": "10:44"},
+            {"title": "Deploying Career Conversation Chatbots to Gradio", "duration": "08:44"},
+            {"title": "Foundation Week Wrap-up: Building Complete AI Agents with APIs & Tools", "duration": "01:35"}
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "OpenAI Agents SDK",
+      "color": "blue",
+      "projects": [
+        "Understand OpenAI Agent SDK concepts",
+        "Project 2: an SDK",
+        "Tools vs Agents Guardrails",
+        "Project 3: Deep Research",
+        "Project 3: Deep Research app"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "lessons": [
+            {"title": "Understanding Async Python: The Foundation for OpenAI Agents SDK", "duration": "11:44"},
+            {"title": "OpenAI Agents SDK Fundamentals: Creating, Tracing, and Running Agents", "duration": "05:15"},
+            {"title": "Introduction to Agent, Runner, and Trace Classes in OpenAI Agents SDK", "duration": "08:36"},
+            {"title": "Vibe Coding: 5 Essential Tips for Efficient Code Generation with LLMs", "duration": "06:55"},
+            {"title": "OpenAI Agents SDK: Understanding Core Concepts for AI Development", "duration": "00:16"}
+          ]
+        },
+        {
+          "day": 2,
+          "lessons": [
+            {"title": "Build AI Sales Agents with SendGrid: Tools & Collaboration in Agent SDK", "duration": "07:26"},
+            {"title": "Concurrent LLM Calls: Implementing Asyncio for Parallel Agent Execution", "duration": "09:00"},
+            {"title": "Converting Agents into Tools: Building Hierarchical AI Systems", "duration": "06:27"},
+            {"title": "Agent Control Flow: When to Use Handoffs vs. Agents as Tools", "duration": "07:47"},
+            {"title": "From Function Calls to Agent Autonomy: Sales Automation with OpenAI SDK", "duration": "06:33"},
+            {"title": "Agentic AI for Business: Creating Interactive Sales Outreach Tools", "duration": "01:01"}
+          ]
+        },
+        {
+          "day": 3,
+          "lessons": [
+            {"title": "Multi-Model Integration: Using Gemini, DeepSeek & Grok with OpenAI Agents", "duration": "07:46"},
+            {"title": "Implementing Guardrails & Structured Outputs for Robust AI Agent Systems", "duration": "10:11"},
+            {"title": "AI Safety in Practice: Implementing Guardrails for LLM Agent Applications", "duration": "05:25"}
+          ]
+        },
+        {
+          "day": 4,
+          "lessons": [
+            {"title": "Building Deep Research Agents: Implementing OpenAI's Web Search Tool", "duration": "08:49"},
+            {"title": "Building a Planner Agent: Using Structured Outputs with Pydantic in AI", "duration": "07:58"},
+            {"title": "Building an End-to-End Research Pipeline with GPT-4 Agents & Async Tasks", "duration": "10:28"},
+            {"title": "Building a Deep Research Agent: Parallel Searches with AsyncIO", "duration": "03:55"}
+          ]
+        },
+        {
+          "day": 5,
+          "lessons": [
+            {"title": "Building a Modular AI Research System with Gradio UI Implementation", "duration": "12:26"},
+            {"title": "Deep Research App: Gradio to Visualize & Monitor Autonomous AI Agents", "duration": "03:36"},
+            {"title": "Deploying Smart Research Agents with Gradio and HuggingFace Spaces", "duration": "03:59"}
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Crew AI",
+      "color": "blue",
+      "projects": [
+        "Understand Crew AI Concepts",
+        "Build a Crew AI Agent",
+        "Project 4: Stock Picker",
+        "Project 5: Developer Agent",
+        "Project 5: Engineering Team"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "lessons": [
+            {"title": "Crew AI Framework: Creating Collaborative AI Agent Teams", "duration": "06:02"},
+            {"title": "Crew AI Framework Explained: Agents, Tasks & Processing Modes Tutorial", "duration": "07:44"},
+            {"title": "Crew AI & LightLLM: Flexible Framework for Integrating Multiple LLMs", "duration": "04:46"},
+            {"title": "Crew AI Tutorial: Setting Up a Debate Project with GPT-4o mini", "duration": "09:20"},
+            {"title": "How to Create an AI Debate System Using Crew AI and Multiple LLMs", "duration": "12:20"},
+            {"title": "Building AI Debate Systems with CrewAI: Compare Different LLMs", "duration": "02:07"}
+          ]
+        },
+        {
+          "day": 2,
+          "lessons": [
+            {"title": "Building Crew AI Projects: Tools, Context & Google Search Integration", "duration": "06:03"},
+            {"title": "Building Multi-Agent Financial Research Systems with Crew.ai", "duration": "10:46"},
+            {"title": "Enhancing AI Agents with Web Search: Solving the Knowledge Cutoff Problem", "duration": "05:44"}
+          ]
+        },
+        {
+          "day": 3,
+          "lessons": [
+            {"title": "Building a Crew AI Stock Picker: Multi-Agent System for Investments", "duration": "07:10"},
+            {"title": "Implementing Pydantic Outputs in Crew AI: Stock Picker Agent Tutorial", "duration": "08:39"},
+            {"title": "Custom Tool Development for Crew AI: JSON Schema & Push Notifications", "duration": "08:49"}
+          ]
+        },
+        {
+          "day": 4,
+          "lessons": [
+            {"title": "Crew AI Memory: Vector Storage & SQL Implementation for AI Agents", "duration": "12:14"},
+            {"title": "Crew AI for Coding Tasks: Agents That Generate & Run Python Code", "duration": "08:06"},
+            {"title": "Create a Python-Writing AI Agent: Practical Implementation with Crew AI", "duration": "06:04"}
+          ]
+        },
+        {
+          "day": 5,
+          "lessons": [
+            {"title": "Building AI Teams: Configure Crew AI for Collaborative Development", "duration": "10:21"},
+            {"title": "Collaborative AI Agent Development for a Stock Trading Framework", "duration": "08:09"},
+            {"title": "Building a Trading Application Using GPT-4o & Claude", "duration": "08:30"},
+            {"title": "From Single Modules to Complete Systems: Advanced CrewAI Techniques", "duration": "08:49"}
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "LangGraph",
+      "color": "blue",
+      "projects": [
+        "Understand LangGraph Concepts",
+        "Build a LangGraph Agent",
+        "Tools, memory, web searches",
+        "Project 6: Sidekick",
+        "Project 6: Sidekick improvements"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "lessons": [
+            {"title": "LangGraph Explained: Graph-Based Architecture for Robust AI Agents", "duration": "10:12"},
+            {"title": "LangGraph Explained: Framework, Studio, and Platform Components Compared", "duration": "05:43"},
+            {"title": "LangGraph Theory: Core Components for Building Advanced Agent Systems", "duration": "09:52"}
+          ]
+        },
+        {
+          "day": 2,
+          "lessons": [
+            {"title": "LangGraph Deep Dive: Managing State in Graph-Based Agent Workflows", "duration": "05:47"},
+            {"title": "Mastering LangGraph: How to Define State Objects & Use Reducers", "duration": "07:12"},
+            {"title": "LangGraph Fundamentals: Creating Nodes, Edges & Workflows Step-by-Step", "duration": "06:22"},
+            {"title": "LangGraph Tutorial: Building an OpenAI Chatbot with Graph Structures", "duration": "03:59"}
+          ]
+        },
+        {
+          "day": 3,
+          "lessons": [
+            {"title": "LangGraph Advanced Tutorial: Super Steps & Checkpointing Explained", "duration": "05:47"},
+            {"title": "Setting Up Langsmith & Creating Custom Tools for LangGraph Applications", "duration": "06:31"},
+            {"title": "LangGraph Tool Calling: Working with Conditional Edges & Tool Nodes", "duration": "11:31"},
+            {"title": "LangGraph Checkpointing: How to Maintain Memory Between Conversations", "duration": "08:56"},
+            {"title": "Building Persistent AI Memory with SQLite: LangGraph State Management", "duration": "05:57"}
+          ]
+        },
+        {
+          "day": 4,
+          "lessons": [
+            {"title": "Playwright Integration with LangGraph: Creating Web-Browsing AI Agents", "duration": "08:41"},
+            {"title": "Create AI Web Assistants: Playwright, LangChain & Gradio Implementation", "duration": "08:03"},
+            {"title": "LLM Evaluator Agents: Creating Feedback Loops with Structured Outputs", "duration": "09:16"},
+            {"title": "Creating LLM Feedback Loops: Worker-Evaluator Implementation in LangGraph", "duration": "10:28"},
+            {"title": "Building an AI Sidekick Using LangGraph, Gradio & Browser Automation", "duration": "08:49"}
+          ]
+        },
+        {
+          "day": 5,
+          "lessons": [
+            {"title": "Agentic AI: Add Web Search, File System & Python REPL to Your Assistant", "duration": "05:34"},
+            {"title": "LangChain Tool Integration: Building a Powerful AI Sidekick from Scratch", "duration": "09:59"},
+            {"title": "Creating AI Workflows: Graph Builders & Node Communication Techniques", "duration": "08:33"},
+            {"title": "Creating Isolated User Sessions in Gradio Apps Using State Management", "duration": "06:00"},
+            {"title": "Inside AI Feedback Loops: Seeing How AI Evaluates & Corrects Errors", "duration": "12:15"},
+            {"title": "AI Assistant Upgrades: Memory, Clarifying Questions & Custom Tools", "duration": "03:46"}
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "AutoGen",
+      "color": "blue",
+      "projects": [
+        "Understand AutoGen Concepts",
+        "AutoGen Agent Chat",
+        "AutoGen Core",
+        "AutoGen Core Distributed",
+        "Project 7: Agent Creator"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "lessons": [
+            {"title": "Microsoft Autogen 0.5.1: AI Agent Framework Explained for Beginners", "duration": "07:36"},
+            {"title": "AutoGen vs Other Agent Frameworks: Features & Components Compared", "duration": "05:48"},
+            {"title": "AutoGen Agent Chat Tutorial: Creating Tools and Database Integration", "duration": "09:44"},
+            {"title": "Essential AI Components: Models, Messages & Agents Explained", "duration": "00:14"}
+          ]
+        },
+        {
+          "day": 2,
+          "lessons": [
+            {"title": "Advanced Autogen Agent Chat: Multimodal Features & Structured Outputs", "duration": "09:27"},
+            {"title": "Implementing Primary and Evaluator Agents in AutoGen with Langchain", "duration": "13:36"},
+            {"title": "Headless Web Scraping Tutorial: MCP Server Fetch Integration in AutoGen", "duration": "08:12"}
+          ]
+        },
+        {
+          "day": 3,
+          "lessons": [
+            {"title": "AutoGen Core: The Backbone of Distributed Agent Communications", "duration": "05:01"},
+            {"title": "Agent Communication in Autogen Core: Message Handlers & Dispatching", "duration": "08:43"},
+            {"title": "AutoGenCore Agent Registration and Message Handling: Practical Examples", "duration": "09:04"},
+            {"title": "AutoGenCore Standalone Agents: Rock Paper Scissors with GPT-4o & Llama", "duration": "07:28"}
+          ]
+        },
+        {
+          "day": 4,
+          "lessons": [
+            {"title": "Autogen Core Distributed Runtime: Architecture & Components Explained", "duration": "03:00"},
+            {"title": "Implementing Distributed AI Agents with AutoGen Core and gRPC Runtime", "duration": "10:28"},
+            {"title": "Building Distributed Agent Systems: AutoGen Cross-Process Communication", "duration": "04:21"}
+          ]
+        },
+        {
+          "day": 5,
+          "lessons": [
+            {"title": "Creating Autonomous Agents That Write & Deploy Other Agents in AutoGen", "duration": "05:03"},
+            {"title": "Implementing Agent-to-Agent Messaging with Autogen Core & Templates", "duration": "10:46"},
+            {"title": "Creating Autonomous AI Agents that Collaborate Using Async Python", "duration": "11:44"}
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "MCP",
+      "color": "orange",
+      "projects": [
+        "Agentic Architectures and MCP",
+        "Building an MCP Server and Client",
+        "Multiple Local and Remote MCP servers",
+        "Project 8: AI Equity Traders",
+        "Project 8: AI Equity Traders In Action"
+      ],
+      "days": [
+        {
+          "day": 1,
+          "lessons": [
+            {"title": "Intro to MCP: The USB-C of Agentic AI", "duration": "06:34"},
+            {"title": "Understanding MCP Hosts, Clients, and Servers", "duration": "09:18"},
+            {"title": "Using MCP Servers with OpenAI Agents SDK", "duration": "08:06"},
+            {"title": "Exploring Node-Based MCP Servers & Tool Access", "duration": "05:01"},
+            {"title": "Building an Agent That Uses Multiple MCP Servers", "duration": "11:14"},
+            {"title": "MCP Marketplaces & Security Considerations", "duration": "02:51"}
+          ]
+        },
+        {
+          "day": 2,
+          "lessons": [
+            {"title": "Intro to Week 6 Day 2: Building Your Own MCP Server", "duration": "04:43"},
+            {"title": "Wiring Business Logic into Your MCP Server", "duration": "06:29"},
+            {"title": "Creating Client Code to Use Your MCP Server", "duration": "12:05"},
+            {"title": "Wrap-Up: Capabilities of Your Custom MCP Server", "duration": "00:20"}
+          ]
+        },
+        {
+          "day": 3,
+          "lessons": [
+            {"title": "Exploring Types of MCP Servers and Agent Memory", "duration": "08:19"},
+            {"title": "Brave Search API: MCP Server Calling the Web", "duration": "08:30"},
+            {"title": "Integrating Polygon API for Stock Market Data", "duration": "05:26"},
+            {"title": "Advanced Market Tools Using Paid Polygon Plan", "duration": "05:52"}
+          ]
+        },
+        {
+          "day": 4,
+          "lessons": [
+            {"title": "What's Next: Launching Our Agent Trading Floor", "duration": "07:45"},
+            {"title": "Viewing the User Interface for Trading Activity", "duration": "10:45"},
+            {"title": "How Trading Agents Operate and Make Decisions", "duration": "07:07"},
+            {"title": "Portfolio Management with Four Autonomous Agents", "duration": "10:20"}
+          ]
+        },
+        {
+          "day": 5,
+          "lessons": [
+            {"title": "Which Agent Framework Should You Pick?", "duration": "09:10"},
+            {"title": "Key Settings and Launching the Trading System", "duration": "05:51"},
+            {"title": "Advice for Selecting Agentic Frameworks", "duration": "08:27"},
+            {"title": "10 Essential Lessons for Building Agent Solutions", "duration": "08:15"},
+            {"title": "Course Recap and Final Goodbye – Keep Building!", "duration": "07:14"}
+          ]
+        }
+      ]
+    }
+  ]
+}
