@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useProgress } from "../context/ProgressContext";
+import { useDatabaseProgress } from "../context/DatabaseProgressContext";
 
 const Planner = ({ plan }) => {
   const [selectedWeek, setSelectedWeek] = useState(1);
@@ -13,7 +13,7 @@ const Planner = ({ plan }) => {
     getLessonTime,
     isTimerActive,
     formatTime 
-  } = useProgress();
+  } = useDatabaseProgress();
 
   const currentWeek = plan.weeks.find(w => w.week === selectedWeek);
 

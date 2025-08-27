@@ -158,6 +158,115 @@ npm start
 - **Progress Trends**: Visual trends in learning progress
 - **Data Insights**: Actionable insights from learning patterns
 
+## 🔥 Firebase Database Reset Module
+
+### ⚠️ **CRITICAL SAFETY WARNING**
+**This module contains destructive operations that can permanently delete data. Use with extreme caution, especially in production environments.**
+
+### Overview
+The Firebase Database Reset Module provides comprehensive tools for managing and resetting the Firebase database with multiple interfaces and robust safety mechanisms.
+
+### Components
+
+#### 1. **Web Interface (`/reset` route)**
+- **Access**: Admin users only
+- **Features**: 
+  - Visual database reset panel with safety warnings
+  - Two reset types: User Data Only vs Complete Reset
+  - Backup creation and restoration
+  - Multiple confirmation checkboxes for destructive operations
+  - Real-time status updates and error handling
+
+#### 2. **Command Line Interface**
+```bash
+# Create database backup
+npm run backup-db
+
+# Reset user data only (preserves system settings)
+npm run reset-users
+
+# Complete database reset (DANGEROUS - destroys everything)
+npm run reset-complete
+
+# List available backups
+npm run list-backups
+
+# Direct script usage with options
+node scripts/resetDatabase.js --user-data --force
+node scripts/resetDatabase.js --restore backups/firebase_backup_2024-01-01.json
+```
+
+#### 3. **Core Reset Manager (`utils/firebaseReset.js`)**
+- Backup creation with timestamp and collection data
+- Collection-specific reset operations
+- Production environment protection
+- Automatic audit trail logging
+- Safety checks and confirmations
+
+### Reset Types
+
+#### **User Data Reset**
+- **Deletes**: Users, progress, notes, schedules
+- **Preserves**: System settings, audit logs
+- **Use Case**: Clean slate for users while keeping system configuration
+
+#### **Complete Reset**
+- **Deletes**: Everything in the database
+- **Use Case**: Complete fresh start or development environment reset
+
+### Safety Features
+
+- **Multiple Confirmations**: Checkbox + text confirmations for destructive operations
+- **Automatic Backups**: Created before any reset operation
+- **Production Protection**: Enhanced safety checks for production environments
+- **Environment Detection**: Automatic detection with appropriate warnings
+- **Audit Trail**: All operations logged with timestamp and details
+
+### Collections Managed
+
+#### User Collections (Reset with `--user-data`)
+- `portal_users` - User authentication data
+- `user_progress` - Learning progress tracking
+- `user_notes` - User-created notes
+- `user_schedules` - User schedules and planning
+
+#### System Collections (Reset only with `--complete`)
+- `audit_logs` - System audit trail
+- `settings` - Application settings and configuration
+
+### Usage Examples
+
+#### Web Interface
+1. Login as admin user
+2. Navigate to `/reset` in the portal
+3. Follow the safety prompts and confirmations
+4. Choose between user data reset or complete reset
+
+#### Command Line
+```bash
+# Interactive reset with prompts
+npm run reset-db
+
+# Force reset without prompts (use carefully)
+node scripts/resetDatabase.js --user-data --force
+
+# Create backup before manual operations
+npm run backup-db
+
+# Restore from specific backup
+node scripts/resetDatabase.js --restore backups/firebase_backup_2024-08-27.json
+```
+
+### Documentation
+See `README_DATABASE_RESET.md` for comprehensive documentation including:
+- Detailed safety procedures
+- Backup and restore workflows
+- Troubleshooting guide
+- Best practices
+- Security considerations
+
+---
+
 ## 🛠️ Administration Guide
 
 ### Initial Setup

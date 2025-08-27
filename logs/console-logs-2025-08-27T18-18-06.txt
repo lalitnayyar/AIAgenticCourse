@@ -1,0 +1,81 @@
+[2025-08-27T18:18:04.695Z] [LOG] 🔐 Initializing authentication system...
+[2025-08-27T18:18:04.696Z] [LOG] 🔧 Attempting to initialize data recovery service...
+[2025-08-27T18:18:04.697Z] [LOG] ✅ App initialized successfully
+[2025-08-27T18:18:04.697Z] [LOG] 🔐 Initializing authentication system...
+[2025-08-27T18:18:04.697Z] [LOG] 🔧 Attempting to initialize data recovery service...
+[2025-08-27T18:18:04.697Z] [LOG] ✅ App initialized successfully
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Initializing auth service...
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Creating default admin users...
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Creating default user: admin
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Initializing auth service...
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Creating default admin users...
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Creating default user: admin
+[2025-08-27T18:18:04.719Z] [LOG] ✅ User admin already exists locally
+[2025-08-27T18:18:04.719Z] [LOG] ✅ User admin already exists locally
+[2025-08-27T18:18:04.719Z] [LOG] 🔧 Creating default user: lalitnayyar
+[2025-08-27T18:18:04.720Z] [LOG] 🔧 Creating default user: lalitnayyar
+[2025-08-27T18:18:04.720Z] [LOG] ✅ User lalitnayyar already exists locally
+[2025-08-27T18:18:04.720Z] [LOG] ✅ User lalitnayyar already exists locally
+[2025-08-27T18:18:04.720Z] [LOG] ✅ Default users creation completed
+[2025-08-27T18:18:04.720Z] [LOG] ✅ Default users creation completed
+[2025-08-27T18:18:04.720Z] [LOG] 🔍 Found saved session for user: admin
+[2025-08-27T18:18:04.720Z] [LOG] 🔍 Validating session for user: admin
+[2025-08-27T18:18:04.720Z] [LOG] 🔍 Found saved session for user: admin
+[2025-08-27T18:18:04.720Z] [LOG] 🔍 Validating session for user: admin
+[2025-08-27T18:18:04.720Z] [LOG] ✅ Valid session found for user: admin
+[2025-08-27T18:18:04.720Z] [LOG] 💾 Saving user to local storage: admin
+[2025-08-27T18:18:04.720Z] [LOG] 🔄 Updated existing user: admin
+[2025-08-27T18:18:04.721Z] [LOG] ✅ User saved successfully: admin
+[2025-08-27T18:18:04.721Z] [LOG] ✅ Valid session found for user: admin
+[2025-08-27T18:18:04.721Z] [LOG] 💾 Saving user to local storage: admin
+[2025-08-27T18:18:04.721Z] [LOG] 🔄 Updated existing user: admin
+[2025-08-27T18:18:04.721Z] [LOG] ✅ User saved successfully: admin
+[2025-08-27T18:18:04.721Z] [LOG] 🔍 Verification - user exists after save: YES
+[2025-08-27T18:18:04.721Z] [LOG] 🔍 Verification - user exists after save: YES
+[2025-08-27T18:18:04.721Z] [LOG] ✅ Session restored for user: admin
+[2025-08-27T18:18:04.721Z] [LOG] ✅ Session restored for user: admin
+[2025-08-27T18:18:04.721Z] [LOG] ✅ Session restored for user: admin
+[2025-08-27T18:18:04.722Z] [LOG] ✅ Session restored for user: admin
+[2025-08-27T18:18:04.745Z] [LOG] Dashboard calculations: {
+  "totalLessons": 129,
+  "completedCount": 0,
+  "progressPercentage": 0,
+  "totalTimeSpent": "0s",
+  "expectedTime": "0s",
+  "efficiency": "0%"
+}
+[2025-08-27T18:18:04.753Z] [ERROR] Error loading storage stats: {} {
+  "name": "Error Component Stack"
+}
+[2025-08-27T18:18:04.754Z] [LOG] 🔐 Initializing database for user: admin
+[2025-08-27T18:18:04.754Z] [LOG] Dashboard calculations: {
+  "totalLessons": 129,
+  "completedCount": 0,
+  "progressPercentage": 0,
+  "totalTimeSpent": "0s",
+  "expectedTime": "0s",
+  "efficiency": "0%"
+}
+[2025-08-27T18:18:04.754Z] [ERROR] Error loading storage stats: {}
+[2025-08-27T18:18:04.755Z] [LOG] Hybrid database initialized
+[2025-08-27T18:18:04.755Z] [LOG] 💾 Loading all data from database...
+[2025-08-27T18:18:04.755Z] [LOG] Connection status: {
+  "isOnline": false,
+  "lastSync": null,
+  "status": "offline",
+  "connected": false
+}
+[2025-08-27T18:18:04.755Z] [LOG] 📱 Local storage key: learningPortal_admin_progress, found 1 records
+[2025-08-27T18:18:04.755Z] [LOG] 📊 Loaded 1 completed lessons
+[2025-08-27T18:18:04.756Z] [ERROR] ❌ Error loading data: {}
+[2025-08-27T18:18:05.058Z] [LOG] Dashboard calculations: {
+  "totalLessons": 129,
+  "completedCount": 1,
+  "progressPercentage": 1,
+  "totalTimeSpent": "0s",
+  "expectedTime": "7m 15s",
+  "efficiency": "0%"
+}
+[2025-08-27T18:18:05.062Z] [ERROR] Error loading storage stats: {} {
+  "name": "Error Component Stack"
+}
