@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useProgress } from '../context/ProgressContext';
+import { useDatabaseProgress } from '../context/DatabaseProgressContext';
 
 const Schedule = ({ plan }) => {
   const [startDate, setStartDate] = useState(() => {
@@ -7,7 +7,7 @@ const Schedule = ({ plan }) => {
     return saved || '2025-08-26';
   });
   
-  const { formatTime } = useProgress();
+  const { formatTime } = useDatabaseProgress();
 
   // Save start date to localStorage when changed
   useEffect(() => {
