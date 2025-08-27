@@ -20,7 +20,16 @@ const ConnectionStatus = () => {
     updateStatus();
     const interval = setInterval(updateStatus, 5000); // Update every 5 seconds
 
-    return () => clearInterval(interval);
+    // Listen for immediate connection status changes from service
+    const onConnChange = (e) => {
+      setStatus(prev => ({ ...prev, isOnline: !!(e?.detail?.isOnline) }));
+    };
+    window.addEventListener('connectionStatusChanged', onConnChange);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener('connectionStatusChanged', onConnChange);
+    };
   }, [getConnectionStatus]);
 
   const formatLastSync = (lastSync) => {

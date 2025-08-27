@@ -4,12 +4,33 @@ class HybridDatabaseServiceClass {
   constructor() {
     this.localService = SimpleDatabaseService;
     this.cloudService = null; // Disable cloud service for performance
-    this.isOnline = false; // Start offline for instant performance
+    // Initialize to actual browser connectivity where available
+    this.isOnline = (typeof navigator !== 'undefined' && typeof navigator.onLine === 'boolean')
+      ? navigator.onLine
+      : false;
     this.currentUser = null;
     
     // Skip all cloud initialization for maximum performance
     console.log('🚀 Ultra-fast local-only database initialization...');
     console.log('✅ Local-only hybrid database ready');
+
+    // Listen to browser connectivity changes to keep status accurate
+    if (typeof window !== 'undefined' && window.addEventListener) {
+      try {
+        window.addEventListener('online', () => {
+          this.isOnline = true;
+          console.log('🌐 Connection status: ONLINE');
+          try { window.dispatchEvent(new CustomEvent('connectionStatusChanged', { detail: { isOnline: true } })); } catch {}
+        });
+        window.addEventListener('offline', () => {
+          this.isOnline = false;
+          console.log('📴 Connection status: OFFLINE');
+          try { window.dispatchEvent(new CustomEvent('connectionStatusChanged', { detail: { isOnline: false } })); } catch {}
+        });
+      } catch (e) {
+        // no-op if not available
+      }
+    }
   }
 
   setCurrentUser(username) {

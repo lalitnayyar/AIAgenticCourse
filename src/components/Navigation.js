@@ -64,7 +64,7 @@ const Navigation = () => {
         alert(`✅ Data sync completed! Synced ${progressData.length} progress records.`);
       } else {
         console.log('📴 Offline - cannot sync with cloud');
-        alert('⚠️ Device is offline. Cannot sync with cloud.');
+        // No intrusive alert; status is shown via ConnectionStatus component
       }
       
       // Reload the page to refresh all data

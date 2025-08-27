@@ -2,6 +2,8 @@
 
 A comprehensive React-based learning portal for tracking progress through "The Complete Agentic AI Engineering Course" by Lalit Nayyar.
 
+> Quick Links: [User Guide](docs/USER_GUIDE.md) • [Administration Guide](docs/ADMIN_GUIDE.md)
+
 ![Learning Portal Banner](docs/screenshots/banner.png)
 
 ## 📖 Table of Contents
@@ -13,6 +15,7 @@ A comprehensive React-based learning portal for tracking progress through "The C
 - [Technical Documentation](#-technical-documentation)
 - [Screenshots](#-screenshots)
 - [Support](#-support)
+ - [Firebase Data Model & Event Flow](#-firebase-data-model--event-flow)
 
 ## 🚀 Quick Start
 
@@ -39,6 +42,8 @@ npm start
 ```
 
 ## 👤 User Guide
+
+For the complete, step-by-step user documentation, see: [docs/USER_GUIDE.md](docs/USER_GUIDE.md)
 
 ### Getting Started
 1. **First Launch**: Open the application in your browser
@@ -108,6 +113,14 @@ npm start
 - **Quick Reference**: Easy-to-scan activity overview
 
 ## 🔧 Features Overview
+
+### Key Features
+- Cross-device login with secure multi-session support (4 sessions for users, unlimited for admins)
+- Cloud-first data synchronization with resilient local fallback
+- Real-time lesson timers with protected progress tracking and audit logging
+- Force refresh actions across UI for instant state updates
+- Robust error handling and safe database operations
+- Admin database reset tools with backups and strong safeguards
 
 ### Core Functionality
 
@@ -268,6 +281,8 @@ See `README_DATABASE_RESET.md` for comprehensive documentation including:
 ---
 
 ## 🛠️ Administration Guide
+
+For detailed administration procedures, safety notes, and operations, see: [docs/ADMIN_GUIDE.md](docs/ADMIN_GUIDE.md)
 
 ### Initial Setup
 
